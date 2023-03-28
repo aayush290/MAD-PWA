@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Major Mono Display;
+}
+.body{
+    /*background-image: url(../Pictures/skyline2.jpg);*/
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.info{
+    color: white;
+    font-size: 24px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+  ul li.active a{
+    background-color: #f44336;
+    color: white;
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+    font-family: Georgia;
+}
+.logo{
+    height: 200px;
+    width: 400px;
+}
+.store{
+    margin: 0;
+    padding-top: 10px;
+    font-family: Century Gothic;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.image{
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Century Gothic;
+}
+#text{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+} 
+#info{
+    color: white;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 25px;
+}
+#req{
+    color: white;
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 23px;
+}
+#text1{
+    margin-top: 200px;
+    margin-left: 20px;
+    color: white;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+.about{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 10px;
+    margin-left: 0px;
+    align-items: center;
+    margin-top: 90px;
+}
+header{
+    color: #ffffff;
+    font-size: 23px;
+    /*float: right;*/
+    padding-top: 100px;
+    padding-left: 20px;
+    margin-left: 950px;
+}
+.search{
+    padding: 7px 20px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.main1{
+    display: flex;
+    padding-top: 20px;
+}
+.category{
+    margin-left: 20px;
+    color:#ffffff;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(46, 44, 48);
+}
+.cat-button{
+    height: 50px;
+    width: 200px;
+    color:black;
+    background-color: #f44336;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+.store-content{
+    background-color: rgb(46, 44, 48);
+    margin-left:0px;
+    color: #ffffff;
+    float: right;
+    padding: 20px;
+    margin-right: 70px;
+}
+.recommend-main{
+    display: inline-flex;
+}
+.recommend1{
+    padding: 10px;
+}
+.recommend1 p{
+    font-size: larger;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.recommend1 img{
+    height: 500px;
+    width: 334px;
+}
+.game-content{
+    display: inline;
+    background-color: rgb(46, 44, 48);
+    padding: 10px;
+    margin-right: 150px;
+}
+.video{
+    padding: 20px;
+    align-items: center;
+}
+.text-section{
+    color: white;
+    padding: 20px;
+}
+.heading-text{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px 12px #000000;
+}
+.content-text{
+    font-size: large;
+}
+.game-button{
+    height: 93.6px;
+    width: 384px;
+    color:black;
+    background-color: #f44336;
+    font-size: 20px;
+}
+.sub-button{
+    height: 35px;
+    width: 100px;
+    color:white;
+    background-color: #f44336;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .search-sec{
+    display: flex;
+  }
+  .sys-hding{
+      font-size: xx-large;
+  }
+  .dwn-btn{
+    height: 50px;
+    width: 150px;
+    color:white;
+    background-color: #f44336;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-left: 500px;
+  }
+  /*Just try*/
+.bdy{
+background-image: url(skyline2.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+.esports-sec{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 1070px;
+}
+.game-img{
+    height: 300px;
+    width: 500px;
+}
+.game-heading{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.game-info{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.game-info input{
+    height: 50px;
+    width: 150px;
+    color:white;
+    background-color: #f44336;
+    font-size: 20px;
+    padding-bottom: 5px;
+   align-items: center;
+}
+.tourney{
+    margin: 10px;
+    background-color: rgb(46, 44, 48);
+}
+.game-heading1{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 40px;
+    font-size: x-large;
+}
+.news-content{
+    background-color: rgb(46, 44, 48);
+    margin-left:60px;
+    color: #ffffff;
+    padding: 20px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .news-main{
+    display: flex;
+    background-color: #837c7c;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .news-button{
+    height: 70px;
+    width: 950px;
+    color:white;
+    background-color: #f44336;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+  }
+  .news-img img{
+    height: 400px;
+    width: 334px;
+  }
+  .news-text{
+    font-size: large;
+    color: #ffffff;
+    padding: 10px;
+  }

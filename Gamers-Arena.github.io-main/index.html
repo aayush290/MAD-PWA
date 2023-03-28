@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GAMER'S ARENA</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="service" href="sw.js"/>
+    
+
+  </head>
+  <body class="bdy">
+    <script>
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker
+            .register("/sw.js")
+            .then((registration) => {
+              registration.addEventListener("updatefound", () => {
+                // If updatefound is fired, it means that there's
+                // a new service worker being installed.
+                const installingWorker = registration.installing;
+                console.log(
+                  "A new service worker is being installed:",
+                  installingWorker
+                );
+  
+                // You can listen for changes to the installing service worker's
+                // state via installingWorker.onstatechange
+              });
+            })
+            .catch((error) => {
+              console.error(`Service worker registration failed: ${error}`);
+            });
+        } else {
+          console.error("Service workers are not supported.");
+        }
+      </script>
+    <div class="main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="action-cat.html">Store</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="esports.html">Esports</a></li>
+      </ul>
+    </div>
+    <div class="title">
+      <img src="./1x/Asset 1.png" class="logo" />
+      <p class="info">
+        This is a website that provides gamers information about different games
+        and other stuff too.
+      </p>
+    </div>
+
+    <div class="about">
+      <a href="https://youtu.be/RJ266HY5onI" target="_blank">About Us</a>
+    </div>
+    <a title="GDPR-compliant Web Analytics" href="https://clicky.com/101394576"
+      ><img
+        alt="Clicky"
+        src="//static.getclicky.com/media/links/badge.gif"
+        border="0"
+    /></a>
+    <script async src="//static.getclicky.com/101394576.js"></script>
+    <noscript
+      ><p>
+        <img
+          alt="Clicky"
+          width="1"
+          height="1"
+          src="//in.getclicky.com/101394576ns.gif"
+        /></p
+    ></noscript>
+  </body>
+</html>
